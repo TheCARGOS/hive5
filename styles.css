@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+  height: 100vh;
+}
+
+.step {
+  width: 428px;
+  height: 926px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.step__button {
+  cursor: pointer;
+}
+
+.step__title {
+  font-size: 320px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 315px;
+}
+
+.step__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.step__form span {
+  color: white;
+  font-weight: bolder;
+  font-size: 80px;
+  margin: 0 24px;
+}
+
+.step__input {
+  height: 50px;
+  width: 115px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+
+}
+
+.step-1 {
+  background-image: url("./assets/Fondo\ 1.png");
+}
+
+.step-1 > img {
+  margin-bottom: 230px;
+}
+
+.step-2 {
+  background-image: url("./assets/Fondo\ 2.png");
+}
+
+.step-3 {
+  background-color: #4C3971;
+  justify-content: space-between;
+}
+
+.step-3 header, .step-3 footer {
+  height: 110px;
+  background-color: #5F8BF7;
+  width: 100%;
+}
+
+.step-3 .step__title {
+  margin-top: 134px;
+  margin-bottom: 144px;
+}
+
+.step-3 .step__form {
+  margin-bottom: 215px;
+}
+
+.input4 {
+  background-color: white;
+}
+
+.step-5__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.step-5__row-video {
+  padding: 0 40px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.step-5__row img {
+  width: 160px;
+  margin: 0 20px;
+}
+
+
+.step-5__video {
+  width: 190px;
+}
+
